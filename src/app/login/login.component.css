@@ -1,9 +1,25 @@
 .container{
-    margin-top: 10.75rem;
-    opacity: 0.8;
+    position: relative;
+    top: 6.2em;
+    opacity: 0.7;
+    box-sizing: border-box;
+    width: 110ch;
+    padding: 0.15em;
 }
 
 .btn:hover,
 .btn:focus{
    transform: scale(1.05);
+}
+
+#menu{
+    position: absolute;
+    left: 1rem;
+    font-size: 3rem;
+    color: #0277bd; 
+}
+
+#menu:hover,
+#menu:focus{
+    transform: scale(1.1);
 }

@@ -8,7 +8,7 @@ import { MaterializeModule } from 'angular2-materialize';
 })
 export class LoginComponent implements OnInit {
 
-  constructor() { }
-  
-  ngOnInit() { }
+  constructor() {}
+
+  ngOnInit() {}
 }
